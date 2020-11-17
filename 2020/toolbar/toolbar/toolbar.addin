@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>toolbar</Name>
+    <Assembly>toolbar.dll</Assembly>
+	<FullClassName>toolbar.App</FullClassName>
+    <ClientId>239BD853-36E4-461f-9171-C5ACEDA4E755</ClientId>
+    <VendorId>Becher</VendorId>
+    <VendorDescription>Derek Becher, github: dbecher84</VendorDescription>
+  </AddIn>
+</RevitAddIns>
