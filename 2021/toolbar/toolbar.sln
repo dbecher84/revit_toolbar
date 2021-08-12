@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbar", "toolbar\Toolbar.csproj", "{03A1EC0E-F461-4560-9292-41FEBE994051}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C14C4D07-AEBF-4190-8D40-F02AE8E81C2B} = {C14C4D07-AEBF-4190-8D40-F02AE8E81C2B}
+		{8F54F77E-5565-4F77-8CE9-9B66B6A06A71} = {8F54F77E-5565-4F77-8CE9-9B66B6A06A71}
+		{5A95DFDC-66A4-4FF3-8601-FC9243EFE584} = {5A95DFDC-66A4-4FF3-8601-FC9243EFE584}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export 3d views", "..\..\..\c-sharp_revit_3dview_to_nwc\Export 3d views Revit 2021\Export 3d views\Export 3d views.csproj", "{8F54F77E-5565-4F77-8CE9-9B66B6A06A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "export_sheets_dwg_revit", "..\..\..\revit_export_sheets_dwg\2021\export_dwg_files_revit\export_sheets_dwg_revit.csproj", "{5A95DFDC-66A4-4FF3-8601-FC9243EFE584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elevations", "..\..\..\revit_many_views_to_sheet-optional_create_sheet\elevations_2021\elevations\elevations.csproj", "{C14C4D07-AEBF-4190-8D40-F02AE8E81C2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A1EC0E-F461-4560-9292-41FEBE994051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A1EC0E-F461-4560-9292-41FEBE994051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A1EC0E-F461-4560-9292-41FEBE994051}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{03A1EC0E-F461-4560-9292-41FEBE994051}.Debug|x64.Build.0 = Debug|Any CPU
+		{03A1EC0E-F461-4560-9292-41FEBE994051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A1EC0E-F461-4560-9292-41FEBE994051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A1EC0E-F461-4560-9292-41FEBE994051}.Release|x64.ActiveCfg = Release|Any CPU
+		{03A1EC0E-F461-4560-9292-41FEBE994051}.Release|x64.Build.0 = Release|Any CPU
+		{8F54F77E-5565-4F77-8CE9-9B66B6A06A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F54F77E-5565-4F77-8CE9-9B66B6A06A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F54F77E-5565-4F77-8CE9-9B66B6A06A71}.Debug|x64.ActiveCfg = Debug|x64
+		{8F54F77E-5565-4F77-8CE9-9B66B6A06A71}.Debug|x64.Build.0 = Debug|x64
+		{8F54F77E-5565-4F77-8CE9-9B66B6A06A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F54F77E-5565-4F77-8CE9-9B66B6A06A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F54F77E-5565-4F77-8CE9-9B66B6A06A71}.Release|x64.ActiveCfg = Release|x64
+		{8F54F77E-5565-4F77-8CE9-9B66B6A06A71}.Release|x64.Build.0 = Release|x64
+		{5A95DFDC-66A4-4FF3-8601-FC9243EFE584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A95DFDC-66A4-4FF3-8601-FC9243EFE584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A95DFDC-66A4-4FF3-8601-FC9243EFE584}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5A95DFDC-66A4-4FF3-8601-FC9243EFE584}.Debug|x64.Build.0 = Debug|Any CPU
+		{5A95DFDC-66A4-4FF3-8601-FC9243EFE584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A95DFDC-66A4-4FF3-8601-FC9243EFE584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A95DFDC-66A4-4FF3-8601-FC9243EFE584}.Release|x64.ActiveCfg = Release|Any CPU
+		{5A95DFDC-66A4-4FF3-8601-FC9243EFE584}.Release|x64.Build.0 = Release|Any CPU
+		{C14C4D07-AEBF-4190-8D40-F02AE8E81C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14C4D07-AEBF-4190-8D40-F02AE8E81C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14C4D07-AEBF-4190-8D40-F02AE8E81C2B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C14C4D07-AEBF-4190-8D40-F02AE8E81C2B}.Debug|x64.Build.0 = Debug|Any CPU
+		{C14C4D07-AEBF-4190-8D40-F02AE8E81C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14C4D07-AEBF-4190-8D40-F02AE8E81C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14C4D07-AEBF-4190-8D40-F02AE8E81C2B}.Release|x64.ActiveCfg = Release|Any CPU
+		{C14C4D07-AEBF-4190-8D40-F02AE8E81C2B}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F7F3C69-82AB-4900-BD74-6EB2A6FA4F43}
+	EndGlobalSection
+EndGlobal

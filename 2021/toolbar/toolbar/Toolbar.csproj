@@ -15,14 +15,14 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>toolbar</RootNamespace>
     <AssemblyName>toolbar</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\2021\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -61,8 +61,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "$(ProjectDir)\*.addin" "C:\Users\Derek.Becher\AppData\Roaming\Autodesk\Revit\Addins\2020"
-copy "$(ProjectDir)bin\debug\*.dll" "C:\Users\Derek.Becher\AppData\Roaming\Autodesk\Revit\Addins\2020"</PostBuildEvent>
+    <PostBuildEvent>copy "$(ProjectDir)\*.addin" "C:\ProgramData\Autodesk\Revit\Addins\2021"
+copy "$(ProjectDir)\bin\debug\*.dll" "C:\ProgramData\Autodesk\Revit\Addins\2021"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
